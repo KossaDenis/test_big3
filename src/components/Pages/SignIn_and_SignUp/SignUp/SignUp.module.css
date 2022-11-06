@@ -1,0 +1,54 @@
+.SignInBox {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.SignInLeftPart {
+    width: 606%;
+}
+
+.SignInLeftPartContent {
+    margin: 340px 120px;
+}
+
+.SignInTitle {
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 400;
+    color: #344472;
+}
+
+.SignInRightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FBFF;
+    width: 834%;
+}
+
+.SignInImg {
+    max-width: 100%;
+    height: auto;
+    padding: 0 114px;
+}
+
+@media (max-width:1315px) {
+    .SignInRightPart {
+        display: none;
+    }
+
+    .SignInLeftPart {
+        display: flex;
+        justify-content: center;
+    }
+
+    .SignInTitle{
+        text-align: center;
+    }
+
+    .SignInLeftPartContent{
+        margin: 159px 24px 0px 24px;
+    }
+
+}

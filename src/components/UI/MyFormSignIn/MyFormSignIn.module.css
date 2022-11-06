@@ -1,0 +1,117 @@
+.SignInParagraphLogin {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.SignInInput {
+    width: 366px;
+    height: 40px;
+    padding: 8px 12px 8px 12px;
+    background: #F6F6F6;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 0;
+    outline: none;
+    color: #303030;
+    transition: 0.3s;
+}
+
+.InputPassword {
+    position: relative;
+}
+
+.PasswordImg {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.SignInParagraphPassword {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.SignInErrorMessage {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 2px;
+    color: #FF768E;
+}
+
+.FormSignIn {
+    display: inline-block;
+}
+
+.SignInInput:focus {
+    box-shadow: 0px 0px 5px #D9D9D9;
+}
+
+.SignInInput:hover {
+    background: #D1D1D1;
+}
+
+.SignInParagraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.SignUpLink {
+    color: #E4163A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.SignInButton {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 365px;
+    height: 40px;
+    background: #E4163A;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 24px;
+}
+
+.InputPassword {
+    position: relative;
+}
+
+.SignInButton:disabled {
+    background: #F6F6F6;
+    color: #D1D1D1;
+    cursor: default;
+}
+
+.SignInButton:disabled:hover {
+    background: #F6F6F6;
+}
+
+.SignInButton:hover {
+    background: #FF5761;
+}
+
+@media (max-width:1315px) {
+    .SignInInput{
+        width: 270px;
+    }
+    .SignInButton{
+        width: 270px;
+    }
+}
